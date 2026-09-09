@@ -1,6 +1,6 @@
 # Gym Tracker API
 
-A simple REST API for logging strength-training workouts, built with Flask and SQLAlchemy.
+A REST API for logging my gym workouts, built with Flask and SQLAlchemy.
 
 ## Setup
 
@@ -51,8 +51,7 @@ Uses simple progressive-overload logic: if every set in your last session for th
 - `models.py` — database models (`Session`, `SetEntry`) and their relationship
 - `app.py` — Flask routes (the API itself)
 
-## Possible next steps
+## Future additions
 
 - Add a simple frontend (HTML form + JS) to log sessions without using an API client
-- Replace the rule-based suggestion with a call to an LLM API for more nuanced, explained suggestions
-- Add authentication if this were ever used by more than one person
+- Add authentication if I wanted other people to use it too
